@@ -1,4 +1,4 @@
-package Pertemuan2;
+package pertemuan2;
 class Mahasiswa13 {
     String nama;
     String nim;
