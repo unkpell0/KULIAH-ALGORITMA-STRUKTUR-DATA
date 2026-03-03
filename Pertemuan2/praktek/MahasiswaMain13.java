@@ -1,3 +1,4 @@
+package Pertemuan 2;
 public class MahasiswaMain13 {
     public static void main(String[] args) {
         Mahasiswa mhs1 = new Mahasiswa();
