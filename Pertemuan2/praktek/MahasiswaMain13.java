@@ -1,7 +1,7 @@
-package Pertemuan 2;
+package Pertemuan2;
 public class MahasiswaMain13 {
     public static void main(String[] args) {
-        Mahasiswa mhs1 = new Mahasiswa();
+        Mahasiswa13 mhs1 = new Mahasiswa13();
         mhs1.nama = "Muhammad Ali Farhan";
         mhs1.nim = "2241720171";
         mhs1.kelas = "SI 2J";
@@ -11,5 +11,9 @@ public class MahasiswaMain13 {
         mhs1.ubahKelas("SI 2K");
         mhs1.updateIpk(3.60);
         mhs1.tampilanInformasi();
+
+        Mahasiswa13 mhs2 = new Mahasiswa13("Annisa Nabila", "2141720160", 3.25, "TI 2L");
+        mhs2.updateIpk(3.30);
+        mhs2.tampilanInformasi();
     }
 }
